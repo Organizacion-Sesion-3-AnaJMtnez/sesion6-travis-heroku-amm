@@ -5,7 +5,7 @@ before_script:
 script: echo 'none'
 deploy:
   provider: heroku
-  app: curso-github-cefire
+  app: sesion6-github-heroku-amm
   on: master
   skip_cleanup: true
   api_key:
